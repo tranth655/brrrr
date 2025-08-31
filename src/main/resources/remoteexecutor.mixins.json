@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.example.remoteexecutor.mixins",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "remoteexecutor.refmap.json",
+    "mixins": [],
+    "client": [],
+    "server": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
