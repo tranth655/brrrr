@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "remoteexecutor",
+    "version": "1.0.0",
+    "name": "Remote Executor",
+    "description": "Execute files from remote URLs on client startup",
+    "authors": [
+        "YourName"
+    ],
+    "contact": {
+        "homepage": "https://github.com/yourusername/remote-executor-mod",
+        "sources": "https://github.com/yourusername/remote-executor-mod"
+    },
+    "license": "MIT",
+    "icon": "assets/remoteexecutor/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.example.remoteexecutor.RemoteExecutorMod"
+        ]
+    },
+    "mixins": [
+        "remoteexecutor.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.15.0",
+        "fabric-api": "*",
+        "minecraft": ">=1.21 <=1.21.8"
+    }
+}
